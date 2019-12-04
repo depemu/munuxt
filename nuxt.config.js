@@ -23,11 +23,13 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/stylesheets/styles.sass'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/global.js' }
   ],
   /*
   ** Nuxt.js dev-modules
