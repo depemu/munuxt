@@ -1,5 +1,8 @@
 export default {
   mode: 'spa',
+  env: {
+    NODE_ENV: process.env.NODE_ENV
+  },
   /*
   ** Headers of the page
   */
@@ -41,6 +44,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Axios module configuration
