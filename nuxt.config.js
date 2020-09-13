@@ -1,5 +1,5 @@
 export default {
-  ssr: true,
+  ssr: false,
   env: {
     NODE_ENV: process.env.NODE_ENV
   },
