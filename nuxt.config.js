@@ -1,5 +1,5 @@
 export default {
-  mode: 'spa',
+  ssr: true,
   env: {
     NODE_ENV: process.env.NODE_ENV
   },
