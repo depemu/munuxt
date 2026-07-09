@@ -4,21 +4,22 @@
   "description": "Nuxt starter",
   "author": "Muhar Dwi Purwanto",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.1",
-    "compass-mixins": "0.12.12",
-    "nuxt": "2.16.2",
-    "pug": "3.0.2",
-    "pug-plain-loader": "1.1.0",
-    "sass": "1.58.3",
-    "sass-loader": "10.1.1"
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "compass-mixins": "0.12.12",
+    "pug": "^3.0.3",
+    "sass": "^1.83.4"
+  }
 }
